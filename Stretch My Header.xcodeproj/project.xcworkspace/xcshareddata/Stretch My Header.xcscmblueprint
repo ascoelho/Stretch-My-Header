@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8177436004C45FD06E114500374EBB9AA0F17155",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8177436004C45FD06E114500374EBB9AA0F17155" : 0,
+    "E481E78759B17BCE49C8EE349ABA6494202C2E31" : 0,
+    "B609BF7A7728FFB621770F3DB2255DBC60B10F2D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "95447B11-A63B-4043-B320-25CD33AB2404",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8177436004C45FD06E114500374EBB9AA0F17155" : "Stretch%20My%20Header\/",
+    "E481E78759B17BCE49C8EE349ABA6494202C2E31" : "",
+    "B609BF7A7728FFB621770F3DB2255DBC60B10F2D" : "Stretch%20My%20Header\/Stretch%20My%20Header\/iOS-W6-Design-Assets\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Stretch My Header",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Stretch My Header.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ascoelho\/Stretch-My-Header.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8177436004C45FD06E114500374EBB9AA0F17155"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lighthouse-labs\/iOS-W6-Design-Assets.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B609BF7A7728FFB621770F3DB2255DBC60B10F2D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ascoelho\/c.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E481E78759B17BCE49C8EE349ABA6494202C2E31"
+    }
+  ]
+}

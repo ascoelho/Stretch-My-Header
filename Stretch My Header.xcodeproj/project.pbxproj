@@ -13,6 +13,9 @@
 		436F69371D07274700763A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436F69351D07274700763A9E /* Main.storyboard */; };
 		436F69391D07274700763A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436F69381D07274700763A9E /* Assets.xcassets */; };
 		436F693C1D07274700763A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436F693A1D07274700763A9E /* LaunchScreen.storyboard */; };
+		436F69441D0729BC00763A9E /* CustomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436F69431D0729BC00763A9E /* CustomTVC.swift */; };
+		436F69481D0740BF00763A9E /* iOS-W6-Design-Assets in Resources */ = {isa = PBXBuildFile; fileRef = 436F69471D0740BF00763A9E /* iOS-W6-Design-Assets */; };
+		436F694B1D07427300763A9E /* bg-header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 436F694A1D07427300763A9E /* bg-header.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		436F69381D07274700763A9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		436F693B1D07274700763A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		436F693D1D07274700763A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436F69431D0729BC00763A9E /* CustomTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTVC.swift; path = ../CustomTVC.swift; sourceTree = "<group>"; };
+		436F69471D0740BF00763A9E /* iOS-W6-Design-Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "iOS-W6-Design-Assets"; sourceTree = "<group>"; };
+		436F694A1D07427300763A9E /* bg-header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bg-header.jpg"; path = "iOS-W6-Design-Assets/Stretchy-Header.xcassets/bg-header.imageset/bg-header.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +65,31 @@
 				436F692F1D07274700763A9E /* AppDelegate.swift */,
 				436F69311D07274700763A9E /* MasterViewController.swift */,
 				436F69331D07274700763A9E /* DetailViewController.swift */,
-				436F69351D07274700763A9E /* Main.storyboard */,
+				436F69431D0729BC00763A9E /* CustomTVC.swift */,
+				436F69461D0740B400763A9E /* Images */,
+				436F69451D0740A200763A9E /* Storyboard */,
 				436F69381D07274700763A9E /* Assets.xcassets */,
 				436F693A1D07274700763A9E /* LaunchScreen.storyboard */,
 				436F693D1D07274700763A9E /* Info.plist */,
 			);
 			path = "Stretch My Header";
+			sourceTree = "<group>";
+		};
+		436F69451D0740A200763A9E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				436F69351D07274700763A9E /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		436F69461D0740B400763A9E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				436F694A1D07427300763A9E /* bg-header.jpg */,
+				436F69471D0740BF00763A9E /* iOS-W6-Design-Assets */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +150,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				436F69481D0740BF00763A9E /* iOS-W6-Design-Assets in Resources */,
 				436F693C1D07274700763A9E /* LaunchScreen.storyboard in Resources */,
 				436F69391D07274700763A9E /* Assets.xcassets in Resources */,
+				436F694B1D07427300763A9E /* bg-header.jpg in Resources */,
 				436F69371D07274700763A9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +167,7 @@
 			files = (
 				436F69341D07274700763A9E /* DetailViewController.swift in Sources */,
 				436F69321D07274700763A9E /* MasterViewController.swift in Sources */,
+				436F69441D0729BC00763A9E /* CustomTVC.swift in Sources */,
 				436F69301D07274700763A9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
